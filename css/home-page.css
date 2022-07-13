@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* start looming background */
+html {
+    background: url('') no-repeat center /cover, #719662;
+    background-blend-mode: multiply;
+}
+
+/* eng looming background */
+
+h1,h2,h3,h4 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* start text_frog*/
+
+.text_frog {
+    
+    justify-content: flex-start;
+    margin-top: 20px;
+
+}
+
+.title_frog {
+    margin-left: 15%;
+    width: 58ch;
+    padding: 20px;
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #81881e;
+    animation: flashing-border 0.75s step-end infinite,
+        prented-text 4s steps(57);
+}
+
+@keyframes flashing-border {
+    0% {
+        border-color: #c2cc31;
+    }
+
+    50% {
+        border-color: transparent;
+    }
+
+    100% {
+        border-color: #c2cc31;
+    }
+}
+
+@keyframes prented-text {
+    from {
+        width: 0;
+    }
+}
+
+/* end text_frog*/
+
+/* start block_image*/
+.block_image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.intro_image {
+    align-items: flex-end;
+    margin: 0px 0px 20px 0px;
+    border-radius: 20px;
+    box-shadow: rgb(18, 20, 4), rgb(35, 43, 8);
+}
+
+/* end block_image */
+
+/* start intro_content */
+.intro_content{
+    display: flex;
+    justify-content: center;
+}
+
+.content_question{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* end intro_content */
+
+/* start box_button*/
+
+.box_button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content_button{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    padding: 0.5em 1em;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(151, 187, 68);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(76, 107, 39);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.button:hover {
+    background-color: rgb(133, 163, 61)
+}
+
+.button:active {
+    background-color: #4d6920;
+    box-shadow: 0 5px #2b3f11;
+    transform: translateY(4px);
+}
+/* end box_button*/
+
+/* end_page start */
+
+.page_background{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  margin-top: 4%;
+  
+}
+
+.p_autors{
+  margin: 5px 0px 5px 0px;
+  color: white;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+/* end_page end */
+
+

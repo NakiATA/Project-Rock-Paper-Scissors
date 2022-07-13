@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* start looming background */
+html {
+    background: url('') no-repeat center /cover, #719662;
+    background-blend-mode: multiply;
+}
+
+/* eng looming background */
+
+h1,h2,h3,h4 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ---------- */
+:root {
+    --main-color: #ffea00;
+    --color-sub: rgb(29, 75, 11);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+/*start players*/
+.players {
+    display: flex;
+    justify-content: center;
+
+}
+
+.name-plaers {
+    display: inline-block;
+
+}
+
+h3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-right: 45px;
+}
+
+h4 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+/*end players*/
+
+.heading {
+    margin: 30px 0;
+    text-align: center;
+    color: rgb(3, 12, 3);
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-image {
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-image:hover {
+    top: -5px;
+}
+
+.card-text {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--color-sub);
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.message {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.dashboard {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.headindg-sub {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* start box_button*/
+
+.box_button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content_button{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    padding: 0.5em 1em;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(151, 187, 68);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(76, 107, 39);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.button:hover {
+    background-color: rgb(133, 163, 61)
+}
+
+.button:active {
+    background-color: #4d6920;
+    box-shadow: 0 5px #2b3f11;
+    transform: translateY(4px);
+}
+/* end box_button*/
+
+/* end_page start */
+
+.page_background{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top: 4%;
+    
+  }
+  
+  .p_autors{
+    margin: 5px 0px 5px 0px;
+    color: white;
+    font-size: 18px;
+    opacity: 0.8;
+  }
+  
+  /* end_page end */
+  

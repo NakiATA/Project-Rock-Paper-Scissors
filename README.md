@@ -1,1 +1,2 @@
 # Project-Rock-Paper-Scissors
+Hi! This project was a new step for me in training. The creation of this game was very interesting, I made an animation of the input text on the first page, played with the visual button and drew all the illustration for the pages.

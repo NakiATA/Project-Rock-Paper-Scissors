@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Rock, Paper, Scissors">
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<h1 class="heading">Rock, Paper, Scissors</h1>
+
+	<div class="players">
+		<div class="name-plaers">
+			<h3>YOU</h3>
+			<h4>FROG</h4>
+		</div>
+		<!-- /name-plaers -->
+	</div>
+	<!-- /players -->
+
+	<div class="container">
+		<div class="score">
+			<div class="player-score">0</div>
+			<div style="margin: 0px 50px">-</div>
+			<div class="computer-score">0</div>
+		</div>
+		<!-- /score -->
+
+		<div class="message">Make a choice:</div>
+		<div class="d-flex">
+			<div class="card">
+				<div class="card-image" data-image="rock">
+					<img src="img/камень.png" alt="Rock" class="image" width="180px" height="260px"  />
+				</div>
+				<!-- /card-image -->
+
+				<div class="card-text">Rock</div>
+			</div>
+			<!-- /card-->
+
+			<div class="card">
+				<div class="card-image" data-image="paper">
+					<img src="img/бумага.png" alt="Paper" class="image" width="180px" height="260px"  />
+				</div>
+				<!-- /card-image -->
+				<div class="card-text">Paper</div>
+			</div>
+			<!-- /card -->
+			<div class="card">
+				<div class="card-image" data-image="scissors">
+					<img src="img/р-ножниц..png" alt="Scissors" class="image" width="180px" height="260px" />
+				</div>
+				<div class="card-text">Scissors</div>
+			</div>
+		</div>
+		<div class="box_button">
+			<div class="content_button">
+				<div>
+					<button class="button" type="button" onClick="window.location.reload();">Restart</button>
+				</div>
+			</div>
+			<!-- /content_button -->
+		</div>
+		<!-- /box_button -->
+
+		<div class="dashboard">
+			<div class="dashboard-side">
+				<h2 class="headindg-sub">Player</h2>
+				<div class="player-selection">
+					<!-- <p>Rock</p> -->
+				</div>
+			</div>
+			<div class="dashboard-side">
+				<h2 class="headindg-sub">Frog</h2>
+				<div class="computer-selection">
+					<!-- <p>Paper</p> -->
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<section class="end_page">
+        <div class="page_background">
+            <p class="p_autors">
+             Naki_ATA for © The Odin Project 2022
+            </p>
+        </div>
+        <!-- /page_background -->
+		
+	<script src="js/file.js"></script>
+</body>
+
+</html>
